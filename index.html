@@ -55,10 +55,15 @@ window.onload=function(){
         <div class="col"><img src="images/amy-sue.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
 
         <div class="col"><img src="images/great-day-to-be-alive.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+<script>
+        $dirname = "images/";
+        $images = glob($dirname."*.png");
 
+        foreach($images as $image) {
+        echo '<img src="'.$image.'" /><br />';
+        }
 
-
-
+</script>
     </div>
 
 
