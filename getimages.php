@@ -1,4 +1,4 @@
-
+<?php
 //PHP SCRIPT: getimages.php
 Header("content-type: application/x-javascript");
  
@@ -24,3 +24,4 @@ function returnimages($dirname=".") {
  
 echo 'var galleryarray=new Array();'; //Define array in JavaScript
 returnimages() //Output the array elements containing the image file names
+?>
