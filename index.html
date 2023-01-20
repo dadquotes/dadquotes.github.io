@@ -15,6 +15,24 @@
 
 <img src="images/YOU-WANT-THAT-I-SHOULD.png" class="img-fluid" alt="You want that I should? ">
 
+<script src="getimages.php"></script>
+ 
+<script type="text/javascript">
+ 
+var curimg=0
+function rotateimages(){
+    document.getElementById("slideshow").setAttribute("src", "images/"+galleryarray[curimg])
+    curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
+}
+ 
+window.onload=function(){
+    setInterval("rotateimages()", 2500)
+}
+</script>
+ 
+<div style="width: 100%; height: auto">
+<img id="slideshow" src="images/ANTELOPE.png" />
+</div>
 
 </div>
 
