@@ -1,179 +1,312 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JimQuotes: Wit + Wisdom | Our Dad: Jim Taylor</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
-<style>
-    div.col img.img-fluid {
-        border: 1px solid gray;
-        margin: 5px auto;
-        border-radius: 5px;
-    }
-    img.d-inline-block.align-text-top {
-        background-color: white;
-        border-radius: 50%;
-        padding: 2px;
-    }
-</style>
- </head>
-  <body>
-  <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="favicon.ico" alt="Logo" height="24" class="d-inline-block align-text-top">
-                  JimQuotes</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Features</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="#">Pricing</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown link
-                          </a>
-                          <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                      </li>
-                  </ul>
-              </div>
-              <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-          </div>
-      </nav>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <style>
+        div.col img.img-fluid {
+            border: 0px solid gray;
+            margin: 5px auto;
+            border-radius: 5px;
+        }
+
+        img.d-inline-block.align-text-top {
+            background-color: white;
+            border-radius: 50%;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="favicon.ico" alt="Logo" height="24" class="d-inline-block align-text-top">
+            JimQuotes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
 <div class="container-fluid">
 
     <div class="directorySlider"></div>
-     <h1>Wit + Wisdom | Our Dad: Jim Taylor</h1>
+    <h1>Wit + Wisdom | Our Dad: Jim Taylor</h1>
     <h3>By Shannon Lane, Matt Taylor &amp; Johanna Williams</h3>
     <h4>Edited and procured by Rich Williams</h4>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/things-dad-says.jpg" class="img-fluid" alt="You want that I should? "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/amy-sue.png" class="img-fluid" alt="You want that I should? "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/things-dad-says.jpg"
+                              class="img-fluid"
+                              alt="You want that I should? "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/amy-sue.png"
+                              class="img-fluid"
+                              alt="You want that I should? "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/antelope.png" class="img-fluid" alt="You want that I should? "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/antelope.png"
+                              class="img-fluid"
+                              alt="You want that I should? "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/bleu.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/bleu.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/boyfriend-of-the-month.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/chimney.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/cute-as-a-speckled-pup.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/cat-that-cant-hear.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/future-flat-cat.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/fuzzy-brito.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/chingao.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/great-day-to-be-alive.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/hind-legs-walking.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/hoo-hoo.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/boyfriend-of-the-month.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
 
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/hysterical-marker.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/i-can-try.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/leroy-v5.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/magnet.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/chimney.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/old-and-the-worthless.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/cute-as-a-speckled-pup.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/recess.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/cat-that-cant-hear.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/rest-their-area.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/mural.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/future-flat-cat.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/sleeveless.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/fuzzy-brito.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/chingao.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/stand-here-and-curse.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/great-day-to-be-alive.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/wash.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/hind-legs-walking.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/westminster.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/hoo-hoo.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/where-is-matthew.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/hysterical-marker.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/i-can-try.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/wooden-nickels.jpeg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/leroy-v5.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/worse-places-than-that.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/magnet.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/you-want-that-i-should.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/your-momma.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/old-and-the-worthless.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/better-all-over.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/this-is-me.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/who-dat-lp.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/who-dat.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/what-i-say.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/funny-man.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src=" https://ik.imagekit.io/53zpe3cyun/sandwich-personal_qlll_cmyI.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/personal-problem_zYq4RkGLS.png" class="img-fluid" alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/recess.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
 
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/who-dat-color.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col"><img src="https://ik.imagekit.io/53zpe3cyun/who-dat-bw.jpg" class="img-fluid" alt="Antelope eat cantaloupe "></div>
-        <div class="col">
-            <img
-                src="https://ik.imagekit.io/53zpe3cyun/anacin_2fGh-5f7K.png"
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/rest-their-area.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/mural.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/sleeveless.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/stand-here-and-curse.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/wash.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/westminster.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/where-is-matthew.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/wooden-nickels.jpeg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/worse-places-than-that.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/you-want-that-i-should.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/your-momma.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/better-all-over.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/this-is-me.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/who-dat-lp.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/who-dat.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/what-i-say-lowres.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/funny-man.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img src=" https://ik.imagekit.io/53zpe3cyun/sandwich-personal_qlll_cmyI.png" class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/personal-problem.png"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/who-dat-color.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/who-dat-bw.jpg"
+                              class="img-fluid"
+                              alt="Antelope eat cantaloupe "></div>
+        <div class="col"><img class="img-fluid" src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/anacin.png"
+                    class="img-fluid" alt="Antelope eat cantaloupe ">
+        </div>
+        <div class="col"><img class="img-fluid" src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/pancake-fan-amputee.png"
+                    class="img-fluid" alt="Antelope eat cantaloupe ">
+        </div>
+        <div class="col"><img class="img-fluid" src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/fever-with-those-fits.png"
+                    class="img-fluid" alt="Antelope eat cantaloupe ">
+        </div>
+        <div class="col"><img class="img-fluid" src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/easy-for-you-to-say.png"
                 class="img-fluid" alt="Antelope eat cantaloupe ">
         </div>
-        <div class="col">
-            <img
-                    src="https://ik.imagekit.io/53zpe3cyun/pancake-fan-amputee_Lud-a7ZE2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674742687805"
-                    class="img-fluid" alt="Antelope eat cantaloupe ">
-        </div>
-        <div class="col">
-            <img
-                    src="https://ik.imagekit.io/53zpe3cyun/fever-with-those-fits_rXFOdaACt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674742688110"
-                    class="img-fluid" alt="Antelope eat cantaloupe ">
-        </div>
-        <div class="col">
-            <img
-                    src="https://ik.imagekit.io/53zpe3cyun/easy-for-you-to-say_bFJRRRgjZ.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674742680161"
-                    class="img-fluid" alt="Antelope eat cantaloupe ">
-        </div>
 
 
-
+        <div class="col">
+            <img class="img-fluid"
+                 src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/vw.png"
+                 alt="JimQuotes.com (c) 2023 by filthyRich">
+        </div>
+        <div class="col"><img class="img-fluid"
+                              src="https://res.cloudinary.com/xlband/image/upload/q_auto,f_auto,b_white,c_pad,w_1080,h_1350/v1674765328/jim/hairy-legged-boy.png"
+                              alt="JimQuotes.com (c) 2023 by filthyRich">
+        </div>
     </div>
 
 
-
-
 </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+<script
+        src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.5.0/cloudinary-core-shrinkwrap.js"></script>
+<script>
+    var cl = cloudinary.Cloudinary.new({cloud_name: 'xlband', secure: true});
+    // replace 'demo' with your cloud name in the line above
+    cl.responsive();
+    console.log('Cloudinary activated.');
+    //$.cloudinary.config({cloud_name: 'f66', secure: true});
+    $.cloudinary.responsive();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
 </html>
